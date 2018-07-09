@@ -2,6 +2,11 @@
 
 This image provides Android SDK with Oracle Java. Includes gradle binaries.
 
-## Supported tags and respective `Dockerfile` links
+## Build image
+```sh
+docker build -t docker-alpine-android-sdk:28 -t docker-alpine-android-sdk:latest .
+```
 
-* `25.2.3`, `25`, `latest` [(25/Dockerfile)](https://github.com/cakuki/docker-alpine-android-sdk/blob/25_2_3/Dockerfile)
+## Supported tags
+
+* `28`, `latest`
